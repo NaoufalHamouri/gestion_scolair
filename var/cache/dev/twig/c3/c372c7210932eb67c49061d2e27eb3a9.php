@@ -255,6 +255,6 @@ class __TwigTemplate_aa800e80b1a6d0a2b29c3e15c079907d extends Template
                             </body>
 {% endblock %}
 
- ", "security/login.html.twig", "C:\\xampp\\htdocs\\gestion_scolair\\templates\\security\\login.html.twig");
+ ", "security/login.html.twig", "C:\\Users\\x\\Documents\\GitHub\\gestion_scolair\\templates\\security\\login.html.twig");
     }
 }

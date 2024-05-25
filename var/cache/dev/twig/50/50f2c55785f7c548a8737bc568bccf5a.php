@@ -105,6 +105,6 @@ class __TwigTemplate_3162f700b717c883cb7821d566473269 extends Template
 <p>
     Cheers!
 </p>
-", "registration/confirmation_email.html.twig", "C:\\xampp\\htdocs\\gestion_scolair\\templates\\registration\\confirmation_email.html.twig");
+", "registration/confirmation_email.html.twig", "C:\\Users\\x\\Documents\\GitHub\\gestion_scolair\\templates\\registration\\confirmation_email.html.twig");
     }
 }
