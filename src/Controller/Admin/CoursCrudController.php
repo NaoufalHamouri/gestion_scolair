@@ -5,6 +5,7 @@ namespace App\Controller\Admin;
 use App\Entity\Cours;
 use Doctrine\ORM\EntityManagerInterface;
 use EasyCorp\Bundle\EasyAdminBundle\Controller\AbstractCrudController;
+use EasyCorp\Bundle\EasyAdminBundle\Field\AssociationField;
 use EasyCorp\Bundle\EasyAdminBundle\Field\BooleanField;
 use EasyCorp\Bundle\EasyAdminBundle\Field\DateField;
 use EasyCorp\Bundle\EasyAdminBundle\Field\IdField;
@@ -28,7 +29,8 @@ class CoursCrudController extends AbstractCrudController
             NumberField::new('coeffictient'),
             DateField::new('createdAt')->hideOnForm(),
             DateField::new('updatedAt')->hideOnForm(),
-            BooleanField::new('active')
+            BooleanField::new('active'),
+            AssociationField::new('Enseignant')
         ];
     }
    

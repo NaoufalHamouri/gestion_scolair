@@ -7,6 +7,7 @@ use App\Entity\Tuteur;
 use App\Entity\Niveau;
 use App\Entity\Note;
 use App\Entity\Cours;
+use App\Entity\Enseignant;
 use EasyCorp\Bundle\EasyAdminBundle\Config\Crud;
 use EasyCorp\Bundle\EasyAdminBundle\Config\Dashboard;
 use EasyCorp\Bundle\EasyAdminBundle\Config\MenuItem;
@@ -41,7 +42,7 @@ class DashboardController extends AbstractDashboardController
 
     public function configureMenuItems(): iterable
     {
-        yield MenuItem::section("Users");
+        yield MenuItem::section("PERSONNELS");
         yield MenuItem::subMenu('Etudiants','fa-solid fa-user-graduate')->setSubItems( [
             MenuItem::linkToCrud('ajouter Etudiant','fas fa-plus',Etudiant::class)
             ->setAction(Crud::PAGE_NEW),
@@ -51,6 +52,13 @@ class DashboardController extends AbstractDashboardController
                 MenuItem::linkToCrud('ajouter Tuteur','fas fa-plus',Tuteur::class)
                 ->setAction(Crud::PAGE_NEW),
                 MenuItem::linkToCrud('afficher tuteur','fas fa-eye',Tuteur::class)]);
+                yield MenuItem::subMenu('Enseignant','fa-solid fa-person')->setSubItems( [
+                    MenuItem::linkToCrud('ajouter Enseignant','fas fa-plus',Enseignant::class)
+                    ->setAction(Crud::PAGE_NEW),
+                    MenuItem::linkToCrud('afficher Enseignants','fas fa-eye',Enseignant::class)]);
+
+
+
                 yield MenuItem::section("School Management");
                 yield MenuItem::subMenu('Niveau','fa-solid fa-graduation-cap')->setSubItems( [
                     MenuItem::linkToCrud('ajouter Niveau','fas fa-plus',Niveau::class)

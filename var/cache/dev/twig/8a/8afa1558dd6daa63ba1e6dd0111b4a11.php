@@ -465,6 +465,6 @@ class __TwigTemplate_0ea14ecc45e53fc6b8fbd6fffbbe96ae extends Template
         </div>
     </div>
 {% endblock %}
-", "@WebProfiler/Profiler/layout.html.twig", "C:\\Users\\x\\Documents\\GitHub\\gestion_scolair\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Profiler\\layout.html.twig");
+", "@WebProfiler/Profiler/layout.html.twig", "C:\\xampp\\htdocs\\gestion_scolair\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Profiler\\layout.html.twig");
     }
 }

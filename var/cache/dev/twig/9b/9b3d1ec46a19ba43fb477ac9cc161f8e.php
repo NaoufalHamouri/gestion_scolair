@@ -83,6 +83,6 @@ class __TwigTemplate_78d2021dbd8ee72a8b477bcadb7570e7 extends Template
 {# @var field \\EasyCorp\\Bundle\\EasyAdminBundle\\Dto\\FieldDto #}
 {# @var entity \\EasyCorp\\Bundle\\EasyAdminBundle\\Dto\\EntityDto #}
 {{ field.formattedValue }}
-", "@EasyAdmin/crud/field/hidden.html.twig", "C:\\Users\\x\\Documents\\GitHub\\gestion_scolair\\vendor\\easycorp\\easyadmin-bundle\\src\\Resources\\views\\crud\\field\\hidden.html.twig");
+", "@EasyAdmin/crud/field/hidden.html.twig", "C:\\xampp\\htdocs\\gestion_scolair\\vendor\\easycorp\\easyadmin-bundle\\src\\Resources\\views\\crud\\field\\hidden.html.twig");
     }
 }

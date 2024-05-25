@@ -36,6 +36,10 @@ class Cours
     #[ORM\Column]
     private ?bool $active = null;
 
+    #[ORM\ManyToOne(inversedBy: 'cours')]
+    #[ORM\JoinColumn(nullable: false)]
+    private ?Enseignant $Enseignant = null;
+
     public function __construct()
     {
         $this->notes = new ArrayCollection();
@@ -139,5 +143,17 @@ class Cours
     {
         $hello ="$this->nomCour coefficient($this->coeffictient)";
         return $hello;
+    }
+
+    public function getEnseignant(): ?Enseignant
+    {
+        return $this->Enseignant;
+    }
+
+    public function setEnseignant(?Enseignant $Enseignant): static
+    {
+        $this->Enseignant = $Enseignant;
+
+        return $this;
     }
 }

@@ -101,6 +101,6 @@ class __TwigTemplate_e3cd4c4f06495af491cbb9ce137669ff extends Template
 {% else %}
     <span title=\"{{ field.value }}\">{{ field.formattedValue|raw }}</span>
 {% endif %}
-", "@EasyAdmin/crud/field/text.html.twig", "C:\\Users\\x\\Documents\\GitHub\\gestion_scolair\\vendor\\easycorp\\easyadmin-bundle\\src\\Resources\\views\\crud\\field\\text.html.twig");
+", "@EasyAdmin/crud/field/text.html.twig", "C:\\xampp\\htdocs\\gestion_scolair\\vendor\\easycorp\\easyadmin-bundle\\src\\Resources\\views\\crud\\field\\text.html.twig");
     }
 }

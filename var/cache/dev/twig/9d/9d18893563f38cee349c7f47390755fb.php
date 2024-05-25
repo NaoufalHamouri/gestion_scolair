@@ -104,6 +104,6 @@ class __TwigTemplate_1a1a033f67259b01d5fe2efa0c449a94 extends Template
 {% if field.customOptions.get('showValue') %}
     {{ field.formattedValue }}
 {% endif %}
-", "@EasyAdmin/crud/field/color.html.twig", "C:\\Users\\x\\Documents\\GitHub\\gestion_scolair\\vendor\\easycorp\\easyadmin-bundle\\src\\Resources\\views\\crud\\field\\color.html.twig");
+", "@EasyAdmin/crud/field/color.html.twig", "C:\\xampp\\htdocs\\gestion_scolair\\vendor\\easycorp\\easyadmin-bundle\\src\\Resources\\views\\crud\\field\\color.html.twig");
     }
 }

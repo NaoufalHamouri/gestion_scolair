@@ -83,6 +83,6 @@ class __TwigTemplate_636332b36643287ba5a81ecf2873eb99 extends Template
 {# @var field \\EasyCorp\\Bundle\\EasyAdminBundle\\Dto\\FieldDto #}
 {# @var entity \\EasyCorp\\Bundle\\EasyAdminBundle\\Dto\\EntityDto #}
 {{ field.formattedValue|trans|raw }}
-", "@EasyAdmin/crud/field/choice.html.twig", "C:\\Users\\x\\Documents\\GitHub\\gestion_scolair\\vendor\\easycorp\\easyadmin-bundle\\src\\Resources\\views\\crud\\field\\choice.html.twig");
+", "@EasyAdmin/crud/field/choice.html.twig", "C:\\xampp\\htdocs\\gestion_scolair\\vendor\\easycorp\\easyadmin-bundle\\src\\Resources\\views\\crud\\field\\choice.html.twig");
     }
 }

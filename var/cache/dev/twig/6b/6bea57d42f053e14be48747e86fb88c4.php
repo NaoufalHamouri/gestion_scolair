@@ -191,6 +191,6 @@ class __TwigTemplate_9f565548b372de8760d930f748b9813c extends Template
         <button type=\"submit\" class=\"btn\">Register</button>
     {{ form_end(registrationForm) }}
 {% endblock %}
-", "registration/register.html.twig", "C:\\Users\\x\\Documents\\GitHub\\gestion_scolair\\templates\\registration\\register.html.twig");
+", "registration/register.html.twig", "C:\\xampp\\htdocs\\gestion_scolair\\templates\\registration\\register.html.twig");
     }
 }

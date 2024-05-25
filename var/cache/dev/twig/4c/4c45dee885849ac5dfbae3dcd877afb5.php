@@ -458,6 +458,6 @@ class __TwigTemplate_c5bdb0fdbbec65a6ca11edb0db28737e extends Template
         </div>
     {% endfor %}
 {% endblock %}
-", "@Debug/Profiler/dump.html.twig", "C:\\Users\\x\\Documents\\GitHub\\gestion_scolair\\vendor\\symfony\\debug-bundle\\Resources\\views\\Profiler\\dump.html.twig");
+", "@Debug/Profiler/dump.html.twig", "C:\\xampp\\htdocs\\gestion_scolair\\vendor\\symfony\\debug-bundle\\Resources\\views\\Profiler\\dump.html.twig");
     }
 }

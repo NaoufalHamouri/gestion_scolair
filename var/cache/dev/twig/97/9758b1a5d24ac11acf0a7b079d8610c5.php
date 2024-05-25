@@ -2227,6 +2227,6 @@ class __TwigTemplate_2d4531fbb4f0702aa907d9444d319fcc extends Template
         </dd>
     </div>
 {% endmacro %}
-", "@EasyAdmin/crud/detail.html.twig", "C:\\Users\\x\\Documents\\GitHub\\gestion_scolair\\vendor\\easycorp\\easyadmin-bundle\\src\\Resources\\views\\crud\\detail.html.twig");
+", "@EasyAdmin/crud/detail.html.twig", "C:\\xampp\\htdocs\\gestion_scolair\\vendor\\easycorp\\easyadmin-bundle\\src\\Resources\\views\\crud\\detail.html.twig");
     }
 }

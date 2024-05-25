@@ -50,7 +50,7 @@ class __TwigTemplate_d2990a99603f7559582a1a1ebaf499af extends Template
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "template", "@EasyAdmin/page/content.html.twig"));
 
         // line 3
-        $context["__internal_c30d2987e764fab1475606230dc83e159791b62e5a776d921e428821803d3d0e"] = CoreExtension::getAttribute($this->env, $this->source, CoreExtension::getAttribute($this->env, $this->source, (isset($context["ea"]) || array_key_exists("ea", $context) ? $context["ea"] : (function () { throw new RuntimeError('Variable "ea" does not exist.', 3, $this->source); })()), "i18n", [], "any", false, false, false, 3), "translationDomain", [], "any", false, false, false, 3);
+        $context["__internal_73faf58bd6272c00db1d228a72cf22231d56206ed52bcef6aa1a56dc6ded01f3"] = CoreExtension::getAttribute($this->env, $this->source, CoreExtension::getAttribute($this->env, $this->source, (isset($context["ea"]) || array_key_exists("ea", $context) ? $context["ea"] : (function () { throw new RuntimeError('Variable "ea" does not exist.', 3, $this->source); })()), "i18n", [], "any", false, false, false, 3), "translationDomain", [], "any", false, false, false, 3);
         // line 2
         yield from $this->getParent($context)->unwrap()->yield($context, array_merge($this->blocks, $blocks));
         
@@ -203,6 +203,6 @@ class __TwigTemplate_d2990a99603f7559582a1a1ebaf499af extends Template
 {% block content_title %}{{ block('page_title') }}{% endblock %}
 
 {% block main %}{{ block('page_content') }}{% endblock %}
-", "@EasyAdmin/page/content.html.twig", "C:\\Users\\x\\Documents\\GitHub\\gestion_scolair\\vendor\\easycorp\\easyadmin-bundle\\src\\Resources\\views\\page\\content.html.twig");
+", "@EasyAdmin/page/content.html.twig", "C:\\xampp\\htdocs\\gestion_scolair\\vendor\\easycorp\\easyadmin-bundle\\src\\Resources\\views\\page\\content.html.twig");
     }
 }

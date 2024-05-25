@@ -448,6 +448,6 @@ class __TwigTemplate_bcb63a1a17c6fd75c60952e84bec882f extends Template
 </article>
 </body>
 </html>
-", "@EasyAdmin/welcome.html.twig", "C:\\Users\\x\\Documents\\GitHub\\gestion_scolair\\vendor\\easycorp\\easyadmin-bundle\\src\\Resources\\views\\welcome.html.twig");
+", "@EasyAdmin/welcome.html.twig", "C:\\xampp\\htdocs\\gestion_scolair\\vendor\\easycorp\\easyadmin-bundle\\src\\Resources\\views\\welcome.html.twig");
     }
 }

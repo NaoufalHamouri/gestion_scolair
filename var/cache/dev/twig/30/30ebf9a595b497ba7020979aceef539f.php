@@ -81,6 +81,6 @@ class __TwigTemplate_a038c44c10e0712e4458b51183b393d1 extends Template
     public function getSourceContext()
     {
         return new Source("<span class=\"badge badge-secondary\">{{ 'label.empty'|trans(domain = 'EasyAdminBundle') }}</span>
-", "@EasyAdmin/label/empty.html.twig", "C:\\Users\\x\\Documents\\GitHub\\gestion_scolair\\vendor\\easycorp\\easyadmin-bundle\\src\\Resources\\views\\label\\empty.html.twig");
+", "@EasyAdmin/label/empty.html.twig", "C:\\xampp\\htdocs\\gestion_scolair\\vendor\\easycorp\\easyadmin-bundle\\src\\Resources\\views\\label\\empty.html.twig");
     }
 }

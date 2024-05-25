@@ -295,6 +295,6 @@ class __TwigTemplate_766d47fa87036953df5fafd470b1a843 extends Template
         });
     </script>
 {% endblock %}
-", "@WebProfiler/Profiler/open.html.twig", "C:\\Users\\x\\Documents\\GitHub\\gestion_scolair\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Profiler\\open.html.twig");
+", "@WebProfiler/Profiler/open.html.twig", "C:\\xampp\\htdocs\\gestion_scolair\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Profiler\\open.html.twig");
     }
 }

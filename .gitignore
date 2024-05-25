@@ -1,13 +1,9 @@
-
 ###> symfony/framework-bundle ###
 /.env.local
 /.env.local.php
 /.env.*.local
 /config/secrets/prod/prod.decrypt.private.php
 /public/bundles/
-echo "var/" >> .gitignore
-echo "vendor/" >> .gitignore
-echo "node_modules/" >> .gitignore
 ###< symfony/framework-bundle ###
 
 ###> phpunit/phpunit ###
@@ -26,8 +22,6 @@ echo "node_modules/" >> .gitignore
 ###< symfony/asset-mapper ###
 
 ###> symfony/webpack-encore-bundle ###
-/node_modules/
-/public/build/
 npm-debug.log
 yarn-error.log
 ###< symfony/webpack-encore-bundle ###
